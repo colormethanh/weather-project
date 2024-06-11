@@ -1,0 +1,44 @@
+.box {
+  height: 30rem;
+  border: 1px solid red;
+}
+
+#search-input {
+  width: 90%;
+  display: inline;
+}
+
+.weather-degree {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.weather-city {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.weather-condition {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.weather-condition-sm {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.weather-degree-sm {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.weather-day {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.five-day-box {
+  border: 1px solid black;
+  display: block;
+}
