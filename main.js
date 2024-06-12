@@ -79,7 +79,7 @@ const formatFiveDayData = function(data) {
 
     return dayArr.reduce((accumulator, itm, dayIndex) => {
       accumulator.temp += itm.main.temp;
-      
+
       // get Day of week, weather icon, and weather condition
       if (dayIndex === 0) {
         const datesStrings = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -188,7 +188,7 @@ class WeatherComponent {
       const box = `
         <div class="five-day-box col"> 
           <div class="weather-condition-sm">${day.weather}</div>
-          <div class="weather-degree-sm"> ${day.temp}</div>
+          <div class="weather-degree-sm"> ${day.temp}°</div>
           <img
                   src="https://openweathermap.org/img/wn/${day.iconCode}@2x.png"
                   alt="${day.weather} icon"
